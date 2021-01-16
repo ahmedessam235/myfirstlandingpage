@@ -1,0 +1,187 @@
+
+ *{
+        box-sizing: border-box;
+        margin:0;
+        padding: 0;
+  }
+  h1{
+      margin-top: 0%;
+      display: flex;
+      align-content: flex-start;
+      position: fixed;
+      top: 0;
+      z-index: 999;
+      background-color: #eee;
+
+  }
+#header-img{
+    height: 20%;
+    width: 20%;
+    margin-top: 5px;
+    margin-right: 65%;
+}
+a { 
+    text-decoration: none; 
+    font-size: smaller;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li {
+    margin: 5px;
+    margin-right: 40%;
+    justify-content: space-between;
+  }
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+    font-size: 60%;
+}
+nav {
+    
+    font-weight: 400;
+}
+h2 {
+    text-align: center;
+    margin-top:5%;
+    font-size: 300%;
+    margin-bottom: 15px;
+}
+.input-email {
+    text-align: center;
+
+}
+#email{
+    border: 2px;
+    border-style: solid;
+    width: 20%;
+}
+#submit{
+    margin-top: 20px;
+    background-color: yellow;
+    border: none;
+    width: 150px;
+    height: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#submit:hover {
+    background-color: orange;
+}
+.first-icon{
+    height: 40px;
+   
+}
+.second-icon{
+    height: 40px;
+}
+.third-icon{
+    height: 40px;
+}
+.features {
+    margin-left: auto;
+  margin-right: auto;
+  border-spacing:0; /* Removes the cell spacing via CSS */
+  border-collapse: collapse;
+}
+p{
+    font-size: medium;
+    
+}
+.first-par{
+    padding-left: 36.6%;
+}
+.second-par{
+    padding-left: 36.6%;
+}
+.third-par{
+    padding-left: 36.6%;
+}
+#video {
+    max-width: 560px;
+    width: 100%;
+    margin: 50px auto; 
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:center;
+}
+.first-block {
+    display: flexbox;
+    border: 1px;
+    border-style: solid;
+    margin:12px;
+    width: calc(100% / 4);
+}
+.second-block {
+    display: flexbox;
+    border: 1px;
+    border-style: solid;
+    margin:12px;
+    width: calc(100% / 4);
+}
+.third-block {
+    display: flexbox;
+    border: 1px;
+    border-style: solid;
+    margin:12px;
+    width: calc(100% / 4);
+}
+.btn-block {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+    height: 40px;
+    padding: 0 40px;
+
+}
+.headline{
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: medium;
+    margin-top: 0px;
+}
+.price {
+    margin-bottom: 10px;
+}
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+    display: block;
+    font-size: medium;
+}
+footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}
+.nav-link {
+    text-decoration: none;
+}
+.footer-end {
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.footer-item {
+    margin: 0px;
+    margin-right: 10px;
+    font-weight: 600;
+    
+}

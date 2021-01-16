@@ -21,7 +21,8 @@
     margin-right: 65%;
 }
 a { 
-    text-decoration: none; 
+    text-decoration: none;
+    color: inherit;
     font-size: smaller;
     
 }
